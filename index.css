@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    height: 100vh;
+    padding: 0;
+    background-image: radial-gradient(circle, #191f1f, #152927, #10332c, #0e3d2e, #14472c, #1e4827, #274822, #30481d, #33401a, #343918, #333218, #302b18);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: .3s ease-in-out;
+    margin-top: 20px;
+
+}
+h1:hover{
+    transform: scale(1.2);
+    color: hsl(171, 60%, 72%);
+}
+.left{
+    background: url("Uchiha İtachi.jpeg");
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    border-radius: 20%;
+    margin-left: 100px;
+    transition: .3s ease-in-out;
+
+}
+.left:hover{
+    transform: scale(1.1);
+}
+.right{
+    background: url("Toji Fushiguro.jpg");
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    border-radius: 20%;
+    margin-left: 850px;
+    margin-top: -420px;
+    transition: .3s ease-in-out;
+}
+.right:hover{
+    transform: scale(1.1);
+}
+button{
+    width: 300px;
+    height: 70px;
+}
+
+.btnl{
+    position: relative;
+    background-color: hsl(137, 100%, 50%);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    transition: .3s ease-in-out;
+    margin-left: 150px;
+
+}
+.btnl span{
+    font-size: 50px;
+}
+.btnl:hover{
+    background-color: #df7511;
+    color:#000;
+    transform: scale(1.05);
+}
+.btnr{
+    background-color: hsl(137, 100%, 50%);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    transition: .3s ease-in-out;
+    margin-left: 450px;
+    font-size: 20px;
+}
+.btnr span{
+    font-size: 50px;
+}
+.btnr:hover{
+    background-color: #df7511;
+    color:#000;
+    transform: scale(1.05);
+}
+labe
